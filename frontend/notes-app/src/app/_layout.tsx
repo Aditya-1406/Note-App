@@ -8,8 +8,8 @@ export default function RootLayout() {
       />
 
       <Stack.Screen
-        name="home"
-        options={{ title: "All Notes" }}
+        name="addNote"
+        options={{ title: "Add Note" }}
       />
     </Stack>
   )
