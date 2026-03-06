@@ -11,6 +11,7 @@ export default function RootLayout() {
         name="addNote"
         options={{ title: "Add Note" }}
       />
+       <Stack.Screen name="note/[id]" options={{ title: "Note Details" }} />
     </Stack>
   )
 }
